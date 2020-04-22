@@ -361,6 +361,16 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.col-sm-12 p {
+    font-size: 1.5em;
+}
+.col-xs-12 p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+.col-xs-12 p.info {
+    font-size: 0.7em;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -1030,7 +1040,7 @@ h4 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
+        padding-left: 0%;
         padding-right: 0;
     }
 }
