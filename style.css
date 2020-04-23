@@ -196,6 +196,7 @@ a:hover {
 .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
+
 }
 
 .d-bloc .panel button:hover,
@@ -324,7 +325,19 @@ a:hover {
 .navbar .nav:hover {
     background-color: #f8b89b;
 }
-
+ul.site-navigationn {
+    padding-top: 100px;
+    margin-top: -4%;
+    text-decoration: none;
+}
+ul.site-navigationn a {
+    text-decoration: none;
+    margin-left: -45%;
+}
+ul.site-navigationn li {
+    padding: 20%;
+    list-style: none;
+}
 .nav > li {
     float: left;
     margin-top: 4px;
@@ -791,7 +804,8 @@ h4 {
 }
 
 .tc-white {
-    color: #f8b89b!important;
+    color: #BF5837!important;
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -803,7 +817,6 @@ h4 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
-
 .ltc-white {
     color: #FFFFFF!important;
 }
