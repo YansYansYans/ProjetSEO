@@ -1,3 +1,29 @@
+.header {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.titre {
+    font-size: 2em;
+}
+.p1 {
+    font-size: 1.5em;
+}
+.blockmain {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.infos {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 50px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -715,7 +741,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 2em;
     font-family: "Open Sans";
 }
 
@@ -804,7 +830,7 @@ h4 {
 }
 
 .tc-white {
-    color: #BF5837!important;
+    color: #FFAB91!important;
     text-align: center;
 }
 
@@ -877,17 +903,6 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
 
 @media (max-width: 991px) {
     .container {
@@ -901,20 +916,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
